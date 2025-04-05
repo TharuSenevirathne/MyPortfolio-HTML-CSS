@@ -1,41 +1,45 @@
 #About-me-Page-Section-title{
-    top: 870px;
+    top: 830px;
     right: 400px;
     position: absolute;
     font-size: 40px;
 }
 
 #About-me-Page-Section-my-img{
-    width: 450px;
-    height: 300px;
-    top: 1000px;
-    left: 70px;
+    width: 280px;
+    top: 880px;
+    left: 100px;
     position: absolute;
-    background-color: blue;
 
 }
 
 
 #About-me-Page-Section-paraghaph{
-    top: 1000px;
-    left: 640px;
-    right: 60px;
+    top: 970px;
+    left: 600px;
+    right: 70px;
     position: absolute;
     font-size: 18px;
     font-family: "Bell MT",Serif;
 }
 
 #About-me-Page-Section-find-me{
-    top: 1290px;
-    left: 640px;
+    top: 1300px;
+    left: 600px;
     font-size: 16px;
     position: absolute;
 }
 
 
 #About-me-Page-Section-find-me-imgs{
-    top: 1310px;
-    left: 637px;
+    top: 1330px;
+    left: 597px;
     position: absolute;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    margin-right: 10px;
 }
 
+#About-me-Page-Section-find-me-imgs img:hover{
+    transform: scale(1.2);
+    filter: brightness(1.2);
+}
