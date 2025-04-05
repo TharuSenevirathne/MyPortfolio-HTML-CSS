@@ -198,3 +198,98 @@ header {
     filter: brightness(1.2);
 }
 
+
+
+/* ---------------- MOBILE LARGE (425px) ---------------- */
+@media only screen and (max-width: 425px) {
+    #Home-Page-text-01,
+    #Home-Page-text-02 {
+        font-size: 20px;
+    }
+
+    #Home-Page-text-03,
+    #txt-anim {
+        font-size: 16px;
+    }
+}
+
+/*!* ---------------- TABLET (768px) ---------------- *!*/
+/*@media only screen and (max-width: 768px) {*/
+/*    .hero {*/
+/*        flex-direction: column;*/
+/*        padding: 40px;*/
+/*    }*/
+
+/*    #Home-Page-Main-img,*/
+/*    #Home-Page-div {*/
+/*        width: 60%;*/
+/*        position: static;*/
+/*    }*/
+
+/*    #Home-Page-text-01,*/
+/*    #Home-Page-text-02,*/
+/*    #Home-Page-text-03,*/
+/*    #txt-anim {*/
+/*        position: static;*/
+/*        text-align: center;*/
+/*        font-size: 30px;*/
+/*    }*/
+
+/*    #Home-Page-Find-me,*/
+/*    #Home-Page-find-me-imgs {*/
+/*        position: static;*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    #Home-Page-Navi {*/
+/*        flex-wrap: wrap;*/
+/*        gap: 15px;*/
+/*        justify-content: center;*/
+/*    }*/
+
+/*    header {*/
+/*        flex-direction: column;*/
+/*        height: auto;*/
+/*        padding: 10px;*/
+/*    }*/
+
+/*    #Home-Page-Navigations {*/
+/*        position: static;*/
+/*        width: 90%;*/
+/*        justify-content: center;*/
+/*    }*/
+/*}*/
+
+/*!* ---------------- LAPTOP (1024px) ---------------- *!*/
+/*@media only screen and (max-width: 1024px) {*/
+/*    .hero {*/
+/*        padding: 60px;*/
+/*    }*/
+
+/*    #Home-Page-div {*/
+/*        width: 300px;*/
+/*        height: 450px;*/
+/*    }*/
+
+/*    #Home-Page-Main-img {*/
+/*        width: 400px;*/
+/*    }*/
+
+/*    #Home-Page-text-01,*/
+/*    #Home-Page-text-02 {*/
+/*        font-size: 50px;*/
+/*    }*/
+/*}*/
+
+/*!* ---------------- LAPTOP LARGE (1440px) ---------------- *!*/
+/*@media only screen and (max-width: 1440px) {*/
+/*    .hero {*/
+/*        padding: 80px;*/
+/*    }*/
+
+/*    #Home-Page-text-01,*/
+/*    #Home-Page-text-02 {*/
+/*        font-size: 60px;*/
+/*    }*/
+/*}*/
+
