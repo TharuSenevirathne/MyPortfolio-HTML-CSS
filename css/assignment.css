@@ -1,80 +1,80 @@
-#assignment-section {
-    padding: 60px 20px;
-    font-family: 'Segoe UI', sans-serif;
-    top: 1700px;
-    position: relative;
-}
+/*#assignment-section {*/
+/*    padding: 60px 20px;*/
+/*    font-family: 'Segoe UI', sans-serif;*/
+/*    top: 1700px;*/
+/*    position: relative;*/
+/*}*/
 
-.assignment-title {
-    text-align: center;
-    font-size: 38px;
-    font-weight: bold;
-    margin-bottom: 40px;
-}
+/*.assignment-title {*/
+/*    text-align: center;*/
+/*    font-size: 38px;*/
+/*    font-weight: bold;*/
+/*    margin-bottom: 40px;*/
+/*}*/
 
-.assignment-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
+/*.assignment-container {*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));*/
+/*    gap: 30px;*/
+/*    max-width: 1200px;*/
+/*    margin: 0 auto;*/
+/*}*/
 
-.assignment-card {
-    background-color: #fff;
-    border-radius: 16px;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-    padding: 25px;
-    transition: transform 0.3s ease-in-out;
-}
+/*.assignment-card {*/
+/*    background-color: #fff;*/
+/*    border-radius: 16px;*/
+/*    box-shadow: 0 6px 12px rgba(0,0,0,0.1);*/
+/*    padding: 25px;*/
+/*    transition: transform 0.3s ease-in-out;*/
+/*}*/
 
-.assignment-card:hover {
-    transform: translateY(-5px);
-}
+/*.assignment-card:hover {*/
+/*    transform: translateY(-5px);*/
+/*}*/
 
-.assignment-card h2 {
-    color: #0cb2fa;
-    font-size: 22px;
-    margin-bottom: 10px;
-}
+/*.assignment-card h2 {*/
+/*    color: #0cb2fa;*/
+/*    font-size: 22px;*/
+/*    margin-bottom: 10px;*/
+/*}*/
 
-.assignment-card p {
-    font-size: 15px;
-    color: #333;
-    line-height: 1.5;
-    margin-bottom: 15px;
-}
+/*.assignment-card p {*/
+/*    font-size: 15px;*/
+/*    color: #333;*/
+/*    line-height: 1.5;*/
+/*    margin-bottom: 15px;*/
+/*}*/
 
-.assignment-card a {
-    color: #0085ff;
-    text-decoration: none;
-    font-weight: bold;
-}
+/*.assignment-card a {*/
+/*    color: #0085ff;*/
+/*    text-decoration: none;*/
+/*    font-weight: bold;*/
+/*}*/
 
-.assignment-card a:hover {
-    text-decoration: underline;
-}
+/*.assignment-card a:hover {*/
+/*    text-decoration: underline;*/
+/*}*/
 
 
-@keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translateY(40px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+/*@keyframes fadeInUp {*/
+/*    0% {*/
+/*        opacity: 0;*/
+/*        transform: translateY(40px);*/
+/*    }*/
+/*    100% {*/
+/*        opacity: 1;*/
+/*        transform: translateY(0);*/
+/*    }*/
+/*}*/
 
-@keyframes popIn {
-    0% {
-        transform: scale(0.95);
-        opacity: 0;
-    }
-    100% {
-        transform: scale(1);
-        opacity: 1;
-    }
-}
+/*@keyframes popIn {*/
+/*    0% {*/
+/*        transform: scale(0.95);*/
+/*        opacity: 0;*/
+/*    }*/
+/*    100% {*/
+/*        transform: scale(1);*/
+/*        opacity: 1;*/
+/*    }*/
+/*}*/
 

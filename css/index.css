@@ -1,11 +1,15 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body{
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
+    background-color: #f9f9f9;
+    color: #333;
 }
 
 header {
@@ -26,20 +30,16 @@ header {
 #Home-Page-logo{
     left: 100px;
     font-size: 20px;
+    font-weight: bold;
     position: absolute;
 }
 
 #Home-Page-Navigations{
     width: 50vw;
     height: 7vh;
-    right: 70px;
+    right: 30px;
     font-weight: bold;
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
     transform: translateX(-3%);
-    border-radius: 50px;
-    border: 1px solid rgba(255,255,255,0.5);
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
     padding: 1rem;
     position: absolute;
 
@@ -60,7 +60,7 @@ header {
 }
 
 #Home-Page-Navi>li>a{
-    font-size: 17px;
+    font-size: 20px;
     font-family: "Bell MT" , Serif;
     color: black;
     text-decoration: none;
@@ -185,111 +185,135 @@ header {
     position: absolute;
 }
 
-#Home-Page-find-me-imgs{
+#Home-Page-find-me-img{
     top: 575px;
     left: 97px;
     position: absolute;
-    transition: transform 0.3s ease, filter 0.3s ease;
+    /*transition: transform 0.3s ease, filter 0.3s ease;*/
     margin-right: 10px;
-}
-
-#Home-Page-find-me-imgs img:hover {
-    transform: scale(1.2);
-    filter: brightness(1.2);
+    display: flex;
 }
 
 
 
-/* ---------------- MOBILE LARGE (425px) ---------------- */
-@media only screen and (max-width: 425px) {
-    #Home-Page-text-01,
-    #Home-Page-text-02 {
-        font-size: 20px;
-    }
-
-    #Home-Page-text-03,
-    #txt-anim {
-        font-size: 16px;
-    }
+#Home-Page-find-me-img>a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
 }
 
-/*!* ---------------- TABLET (768px) ---------------- *!*/
-/*@media only screen and (max-width: 768px) {*/
-/*    .hero {*/
-/*        flex-direction: column;*/
-/*        padding: 40px;*/
-/*    }*/
 
-/*    #Home-Page-Main-img,*/
-/*    #Home-Page-div {*/
-/*        width: 60%;*/
-/*        position: static;*/
-/*    }*/
+#Home-Page-find-me-img img:hover {
+    /*transform: scale(1.2);*/
+    /*filter: brightness(1.2);*/
+    background: #6c63ff;
+    color: white;
+    transform: translateY(-5px);
+}
 
-/*    #Home-Page-text-01,*/
-/*    #Home-Page-text-02,*/
-/*    #Home-Page-text-03,*/
-/*    #txt-anim {*/
-/*        position: static;*/
-/*        text-align: center;*/
-/*        font-size: 30px;*/
-/*    }*/
 
-/*    #Home-Page-Find-me,*/
-/*    #Home-Page-find-me-imgs {*/
-/*        position: static;*/
-/*        text-align: center;*/
-/*    }*/
 
-/*    #Home-Page-Navi {*/
-/*        flex-wrap: wrap;*/
-/*        gap: 15px;*/
-/*        justify-content: center;*/
-/*    }*/
 
-/*    header {*/
-/*        flex-direction: column;*/
-/*        height: auto;*/
-/*        padding: 10px;*/
-/*    }*/
 
-/*    #Home-Page-Navigations {*/
-/*        position: static;*/
-/*        width: 90%;*/
-/*        justify-content: center;*/
-/*    }*/
-/*}*/
 
-/*!* ---------------- LAPTOP (1024px) ---------------- *!*/
-/*@media only screen and (max-width: 1024px) {*/
-/*    .hero {*/
-/*        padding: 60px;*/
-/*    }*/
 
-/*    #Home-Page-div {*/
-/*        width: 300px;*/
-/*        height: 450px;*/
-/*    }*/
+/*!*!* ---------------- MOBILE LARGE (425px) ---------------- *!*!*/
+/*!*@media only screen and (max-width: 425px) {*!*/
+/*!*    #Home-Page-text-01,*!*/
+/*!*    #Home-Page-text-02 {*!*/
+/*!*        font-size: 20px;*!*/
+/*!*    }*!*/
 
-/*    #Home-Page-Main-img {*/
-/*        width: 400px;*/
-/*    }*/
+/*!*    #Home-Page-text-03,*!*/
+/*!*    #txt-anim {*!*/
+/*!*        font-size: 16px;*!*/
+/*!*    }*!*/
+/*!*}*!*/
 
-/*    #Home-Page-text-01,*/
-/*    #Home-Page-text-02 {*/
-/*        font-size: 50px;*/
-/*    }*/
-/*}*/
+/*!*!* ---------------- TABLET (768px) ---------------- *!*!*/
+/*!*@media only screen and (max-width: 768px) {*!*/
+/*!*    .hero {*!*/
+/*!*        flex-direction: column;*!*/
+/*!*        padding: 40px;*!*/
+/*!*    }*!*/
 
-/*!* ---------------- LAPTOP LARGE (1440px) ---------------- *!*/
-/*@media only screen and (max-width: 1440px) {*/
-/*    .hero {*/
-/*        padding: 80px;*/
-/*    }*/
+/*!*    #Home-Page-Main-img,*!*/
+/*!*    #Home-Page-div {*!*/
+/*!*        width: 60%;*!*/
+/*!*        position: static;*!*/
+/*!*    }*!*/
 
-/*    #Home-Page-text-01,*/
-/*    #Home-Page-text-02 {*/
-/*        font-size: 60px;*/
-/*    }*/
-/*}*/
+/*!*    #Home-Page-text-01,*!*/
+/*!*    #Home-Page-text-02,*!*/
+/*!*    #Home-Page-text-03,*!*/
+/*!*    #txt-anim {*!*/
+/*!*        position: static;*!*/
+/*!*        text-align: center;*!*/
+/*!*        font-size: 30px;*!*/
+/*!*    }*!*/
+
+/*!*    #Home-Page-Find-me,*!*/
+/*!*    #Home-Page-find-me-imgs {*!*/
+/*!*        position: static;*!*/
+/*!*        text-align: center;*!*/
+/*!*    }*!*/
+
+/*!*    #Home-Page-Navi {*!*/
+/*!*        flex-wrap: wrap;*!*/
+/*!*        gap: 15px;*!*/
+/*!*        justify-content: center;*!*/
+/*!*    }*!*/
+
+/*!*    header {*!*/
+/*!*        flex-direction: column;*!*/
+/*!*        height: auto;*!*/
+/*!*        padding: 10px;*!*/
+/*!*    }*!*/
+
+/*!*    #Home-Page-Navigations {*!*/
+/*!*        position: static;*!*/
+/*!*        width: 90%;*!*/
+/*!*        justify-content: center;*!*/
+/*!*    }*!*/
+/*!*}*!*/
+
+/*!*!* ---------------- LAPTOP (1024px) ---------------- *!*!*/
+/*!*@media only screen and (max-width: 1024px) {*!*/
+/*!*    .hero {*!*/
+/*!*        padding: 60px;*!*/
+/*!*    }*!*/
+
+/*!*    #Home-Page-div {*!*/
+/*!*        width: 300px;*!*/
+/*!*        height: 450px;*!*/
+/*!*    }*!*/
+
+/*!*    #Home-Page-Main-img {*!*/
+/*!*        width: 400px;*!*/
+/*!*    }*!*/
+
+/*!*    #Home-Page-text-01,*!*/
+/*!*    #Home-Page-text-02 {*!*/
+/*!*        font-size: 50px;*!*/
+/*!*    }*!*/
+/*!*}*!*/
+
+/*!*!* ---------------- LAPTOP LARGE (1440px) ---------------- *!*!*/
+/*!*@media only screen and (max-width: 1440px) {*!*/
+/*!*    .hero {*!*/
+/*!*        padding: 80px;*!*/
+/*!*    }*!*/
+
+/*!*    #Home-Page-text-01,*!*/
+/*!*    #Home-Page-text-02 {*!*/
+/*!*        font-size: 60px;*!*/
+/*!*    }*!*/
+/*!*}*!*/
 
