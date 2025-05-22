@@ -89,6 +89,13 @@ document.addEventListener('DOMContentLoaded', function() {
         );
     }
 
+    // Trigger animations when elements are in viewport
+    window.addEventListener('scroll', function() {
+        const educationSection = document.getElementById('education');
+        if (isInViewport(educationSection)) {
+            animateSkillBars();
+        }
+    });
 
 
 
