@@ -23,3 +23,8 @@ body {
     color: var(--text-color);
     background-color: #ffffff;
 }
+
+a {
+    text-decoration: none;
+    color: var(--dark-color);
+}
