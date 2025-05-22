@@ -81,3 +81,16 @@ img {
 .highlight {
     color: var(--primary-color);
 }
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 30px;
+    margin-right: 15px;
+    margin-top: 20px;
+    transition: var(--transition);
+    cursor: pointer;
+    text-align: center;
+}
