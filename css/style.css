@@ -361,6 +361,14 @@ header.sticky {
     padding: 0 20px;
 }
 
+.education-timeline h3, .skills-section h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+    color: var(--dark-color);
+}
+
 
 
 
