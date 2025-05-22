@@ -45,3 +45,8 @@ img {
     flex-direction: column;
     justify-content: center;
 }
+
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
