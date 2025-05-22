@@ -70,7 +70,12 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
 
-
+        navItem.forEach(item => {
+            item.classList.remove('active');
+            if (item.getAttribute('href').slice(1) === current) {
+                item.classList.add('active');
+            }
+        });
     });
 
 
