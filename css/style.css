@@ -245,3 +245,10 @@ header.sticky {
     margin-bottom: 10px;
     color: var(--dark-color);
 }
+
+.text-content h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--dark-color);
+}
