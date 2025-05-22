@@ -50,7 +50,11 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-
+    // Sticky Header
+    window.addEventListener('scroll', function() {
+        const header = document.querySelector('header');
+        header.classList.toggle('sticky', window.scrollY > 100);
+    });
 
 
 
