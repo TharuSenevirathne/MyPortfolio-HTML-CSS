@@ -319,3 +319,10 @@ header.sticky {
     flex: 1;
     padding-right: 50px;
 }
+
+.about-image .image-box {
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    animation: none;
+}
