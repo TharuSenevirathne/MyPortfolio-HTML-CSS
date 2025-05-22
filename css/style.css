@@ -178,3 +178,11 @@ header.sticky {
 .nav-links ul li {
     margin: 0 15px;
 }
+
+.nav-links ul li a {
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    padding: 5px 0;
+    transition: var(--transition);
+}
