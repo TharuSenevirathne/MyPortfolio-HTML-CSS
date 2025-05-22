@@ -128,7 +128,22 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    // Add fade-in animation to elements
+    const fadeElements = document.querySelectorAll('.section-title, .about-content, .education-content, .projects-container, .contact-content');
 
+    function animateOnScroll() {
+        fadeElements.forEach(element => {
+            const elementTop = element.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+
+            if (elementTop < windowHeight - 100) {
+                element.classList.add('fadeIn');
+            }
+        });
+    }
+
+    window.addEventListener('scroll', animateOnScroll);
+    animateOnScroll(); // Run once when page loads
 
 
 });
