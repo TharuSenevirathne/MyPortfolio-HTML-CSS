@@ -252,3 +252,9 @@ header.sticky {
     margin-bottom: 20px;
     color: var(--dark-color);
 }
+
+.text-content p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
