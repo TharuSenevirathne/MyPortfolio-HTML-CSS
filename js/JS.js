@@ -56,6 +56,23 @@ document.addEventListener('DOMContentLoaded', function() {
         header.classList.toggle('sticky', window.scrollY > 100);
     });
 
+    // Active Menu Item on Scroll
+    const sections = document.querySelectorAll('section');
+    const navItem = document.querySelectorAll('.nav-links ul li a');
+
+    window.addEventListener('scroll', function() {
+        let current = '';
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            if (window.pageYOffset >= sectionTop - 300) {
+                current = section.getAttribute('id');
+            }
+        });
+
+
+    });
+
 
 
 
