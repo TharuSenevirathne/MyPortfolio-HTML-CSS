@@ -238,3 +238,10 @@ header.sticky {
     flex: 1;
     padding-right: 50px;
 }
+
+.text-content h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--dark-color);
+}
