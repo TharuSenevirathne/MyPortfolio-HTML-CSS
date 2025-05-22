@@ -326,3 +326,7 @@ header.sticky {
     border-radius: 20px;
     animation: none;
 }
+
+.about-text {
+    flex: 1;
+}
