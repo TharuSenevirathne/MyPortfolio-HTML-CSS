@@ -6,3 +6,10 @@
     --text-color: #333;
     --transition: all 0.3s ease;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bell MT', sans-serif;
+}
