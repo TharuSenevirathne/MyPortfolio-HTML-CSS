@@ -116,3 +116,8 @@ img {
     background: var(--dark-color);
     color: white;
 }
+
+.social-links {
+    display: flex;
+    margin-top: 25px;
+}
