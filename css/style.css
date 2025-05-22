@@ -121,3 +121,15 @@ img {
     display: flex;
     margin-top: 25px;
 }
+
+.social-links a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--light-color);
+    margin-right: 10px;
+    transition: var(--transition);
+}
