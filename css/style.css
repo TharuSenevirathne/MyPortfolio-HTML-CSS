@@ -269,3 +269,13 @@ header.sticky {
     justify-content: center;
     position: relative;
 }
+
+.image-box {
+    width: 450px;
+    height: 450px;
+    border-radius: 10%;
+    overflow: hidden;
+    border: 8px solid white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    animation: float 3s ease-in-out infinite;
+}
