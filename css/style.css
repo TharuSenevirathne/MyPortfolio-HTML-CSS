@@ -100,3 +100,8 @@ img {
     color: white;
     border: 2px solid var(--primary-color);
 }
+
+.primary-btn:hover {
+    background: transparent;
+    color: var(--primary-color);
+}
