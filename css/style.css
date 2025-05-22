@@ -262,3 +262,10 @@ header.sticky {
 .typing-text {
     color: var(--primary-color);
 }
+
+.image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
