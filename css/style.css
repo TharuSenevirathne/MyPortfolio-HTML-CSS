@@ -258,3 +258,7 @@ header.sticky {
     margin-bottom: 30px;
     max-width: 500px;
 }
+
+.typing-text {
+    color: var(--primary-color);
+}
