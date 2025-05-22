@@ -105,3 +105,9 @@ img {
     background: transparent;
     color: var(--primary-color);
 }
+
+.secondary-btn {
+    background: transparent;
+    color: var(--dark-color);
+    border: 2px solid var(--dark-color);
+}
