@@ -225,3 +225,11 @@ header.sticky {
     position: relative;
     overflow: hidden;
 }
+
+.home-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
