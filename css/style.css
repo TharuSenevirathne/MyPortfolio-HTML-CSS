@@ -330,3 +330,10 @@ header.sticky {
 .about-text {
     flex: 1;
 }
+
+.about-text h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--dark-color);
+}
