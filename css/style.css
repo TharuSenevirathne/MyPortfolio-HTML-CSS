@@ -202,3 +202,8 @@ header.sticky {
 .nav-links ul li a.active::before {
     width: 100%;
 }
+
+.nav-links ul li a:hover,
+.nav-links ul li a.active {
+    color: var(--primary-color);
+}
