@@ -373,6 +373,16 @@ header.sticky {
     position: relative;
 }
 
+.timeline::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: var(--primary-color);
+    left: 25px;
+    top: 0;
+}
+
 
 
 
