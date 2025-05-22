@@ -133,3 +133,8 @@ img {
     margin-right: 10px;
     transition: var(--transition);
 }
+
+.social-links a:hover {
+    background: black;
+    color: white;
+}
