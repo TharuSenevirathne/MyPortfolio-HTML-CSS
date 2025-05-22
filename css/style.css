@@ -369,6 +369,9 @@ header.sticky {
     color: var(--dark-color);
 }
 
+.timeline {
+    position: relative;
+}
 
 
 
