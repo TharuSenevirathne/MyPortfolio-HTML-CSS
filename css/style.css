@@ -369,6 +369,8 @@ header.sticky {
     color: var(--dark-color);
 }
 
+/* Timeline */
+
 .timeline {
     position: relative;
 }
