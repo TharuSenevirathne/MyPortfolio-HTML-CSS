@@ -174,3 +174,7 @@ header.sticky {
 .nav-links ul {
     display: flex;
 }
+
+.nav-links ul li {
+    margin: 0 15px;
+}
