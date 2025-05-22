@@ -34,7 +34,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     typeText();
 
-
     // Mobile Menu Toggle
     const toggleBtn = document.querySelector('.toggle-btn');
     const navLinks = document.querySelector('.nav-links');
@@ -42,6 +41,16 @@ document.addEventListener('DOMContentLoaded', function() {
     toggleBtn.addEventListener('click', function() {
         navLinks.classList.toggle('active');
     });
+
+    // Close mobile menu when clicking a link
+    const navItems = document.querySelectorAll('.nav-links ul li a');
+    navItems.forEach(item => {
+        item.addEventListener('click', function() {
+            navLinks.classList.remove('active');
+        });
+    });
+
+
 
 
 
