@@ -348,3 +348,10 @@ header.sticky {
 #education {
     background: linear-gradient(to right, rgba(236, 240, 241, 0.9), rgba(160, 248, 150, 0.86));
 }
+
+.education-content {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
