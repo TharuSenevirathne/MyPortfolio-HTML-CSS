@@ -337,3 +337,7 @@ header.sticky {
     margin-bottom: 20px;
     color: var(--dark-color);
 }
+
+.about-text p {
+    margin-bottom: 20px;
+}
