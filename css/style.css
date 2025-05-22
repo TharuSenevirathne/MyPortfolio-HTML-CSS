@@ -383,6 +383,12 @@ header.sticky {
     top: 0;
 }
 
+.timeline-item {
+    position: relative;
+    padding-left: 70px;
+    margin-bottom: 50px;
+}
+
 
 
 
