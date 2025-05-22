@@ -111,3 +111,8 @@ img {
     color: var(--dark-color);
     border: 2px solid var(--dark-color);
 }
+
+.secondary-btn:hover {
+    background: var(--dark-color);
+    color: white;
+}
