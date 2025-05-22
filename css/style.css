@@ -355,3 +355,15 @@ header.sticky {
     margin: 0 auto;
     padding: 0 20px;
 }
+
+.education-timeline, .skills-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+
+
+
+
+
+
