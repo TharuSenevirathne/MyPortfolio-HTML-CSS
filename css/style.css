@@ -166,3 +166,7 @@ header.sticky {
     font-weight: 700;
     color: var(--dark-color);
 }
+
+.logo h1 span {
+    color: var(--primary-color);
+}
