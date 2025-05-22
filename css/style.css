@@ -13,3 +13,7 @@
     box-sizing: border-box;
     font-family: 'Bell MT', sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
