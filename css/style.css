@@ -207,3 +207,9 @@ header.sticky {
 .nav-links ul li a.active {
     color: var(--primary-color);
 }
+
+.toggle-btn {
+    display: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
