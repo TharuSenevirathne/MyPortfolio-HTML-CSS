@@ -35,5 +35,15 @@ document.addEventListener('DOMContentLoaded', function() {
     typeText();
 
 
+    // Mobile Menu Toggle
+    const toggleBtn = document.querySelector('.toggle-btn');
+    const navLinks = document.querySelector('.nav-links');
+
+    toggleBtn.addEventListener('click', function() {
+        navLinks.classList.toggle('active');
+    });
+
+
+
 
 });
