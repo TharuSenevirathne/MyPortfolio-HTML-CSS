@@ -447,6 +447,13 @@ header.sticky {
     text-align: center;
 }
 
+.skill-name {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+}
+
 
 
 
