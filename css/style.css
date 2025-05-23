@@ -612,4 +612,10 @@ header.sticky {
     color: var(--dark-color);
 }
 
+.contact-item {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+
 
