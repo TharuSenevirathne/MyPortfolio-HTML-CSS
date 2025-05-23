@@ -638,6 +638,11 @@ header.sticky {
     margin-bottom: 5px;
 }
 
+.contact-item .text p {
+    font-size: 1rem;
+    color: #777;
+}
+
 
 
 
