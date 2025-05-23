@@ -515,6 +515,14 @@ header.sticky {
     padding: 0 20px;
 }
 
+.project-item {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    transition: var(--transition);
+    position: relative;
+}
+
 
 
 
