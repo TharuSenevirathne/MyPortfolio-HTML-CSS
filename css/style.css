@@ -561,6 +561,11 @@ header.sticky {
     margin-bottom: 10px;
 }
 
+.project-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 
 
