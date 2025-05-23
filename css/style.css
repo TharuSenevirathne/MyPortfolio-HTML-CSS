@@ -140,10 +140,7 @@ img {
     color: white;
 }
 
-
-
 /* Header Styles */
-
 header {
     position: fixed;
     top: 0;
@@ -218,10 +215,7 @@ header.sticky {
     font-size: 1.5rem;
 }
 
-
-
 /* Home Section */
-
 #home {
     background: linear-gradient(to right, rgba(236, 240, 241, 0.9), rgba(160, 248, 150, 0.86));
     position: relative;
@@ -300,10 +294,7 @@ header.sticky {
     object-fit: cover;
 }
 
-
-
 /* About Section */
-
 #about {
     background: #fff;
 }
@@ -343,10 +334,7 @@ header.sticky {
     margin-bottom: 20px;
 }
 
-
-
 /* Education Section */
-
 #education {
     background: linear-gradient(to right, rgba(236, 240, 241, 0.9), rgba(160, 248, 150, 0.86));
 }
@@ -372,7 +360,6 @@ header.sticky {
 }
 
 /* Timeline */
-
 .timeline {
     position: relative;
 }
@@ -438,7 +425,6 @@ header.sticky {
 }
 
 /* Skills */
-
 .skill-bars {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -480,11 +466,7 @@ header.sticky {
     margin-top: 5px;
 }
 
-
-
-
 /* Projects Section */
-
 #projects {
     background: #fff;
 }
@@ -588,10 +570,7 @@ header.sticky {
     color: white;
 }
 
-
-
 /* Contact Section */
-
 #contact {
     background: linear-gradient(to right, rgba(236, 240, 241, 0.9), rgba(160, 248, 150, 0.86));
 }
@@ -669,9 +648,7 @@ header.sticky {
     resize: none;
 }
 
-
 /* Footer */
-
 footer {
     background: var(--dark-color);
     color: white;
@@ -679,10 +656,7 @@ footer {
     padding: 30px 0;
 }
 
-
-
 /* Responsive Design */
-
 @media (max-width: 1200px) {
     header {
         padding: 20px 50px;
@@ -805,7 +779,6 @@ footer {
 }
 
 /* Animations */
-
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -820,8 +793,3 @@ footer {
 .fadeIn {
     animation: fadeIn 1s ease forwards;
 }
-
-
-
-
-
