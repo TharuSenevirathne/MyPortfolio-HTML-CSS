@@ -669,7 +669,12 @@ header.sticky {
     resize: none;
 }
 
-
+footer {
+    background: var(--dark-color);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
 
 
 
