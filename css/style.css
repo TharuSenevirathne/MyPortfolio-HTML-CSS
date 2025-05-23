@@ -656,6 +656,11 @@ header.sticky {
     transition: var(--transition);
 }
 
+.form-group input:focus, .form-group textarea:focus {
+    border-color: var(--primary-color);
+    outline: none;
+}
+
 
 
 
