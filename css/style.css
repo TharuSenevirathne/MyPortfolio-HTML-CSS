@@ -217,7 +217,7 @@ header.sticky {
 
 /* Home Section */
 #home {
-    background: linear-gradient(to right, rgba(236, 240, 241, 0.9), rgba(160, 248, 150, 0.86));
+    background: linear-gradient(to right, rgba(236, 240, 241, 0.9), rgba(145, 237, 135, 0.86));
     position: relative;
     overflow: hidden;
 }
