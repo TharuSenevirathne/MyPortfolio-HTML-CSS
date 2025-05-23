@@ -647,6 +647,15 @@ header.sticky {
     margin-bottom: 20px;
 }
 
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
 
 
 
