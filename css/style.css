@@ -680,6 +680,16 @@ footer {
 }
 
 
+@media (max-width: 1200px) {
+    header {
+        padding: 20px 50px;
+    }
+
+    header.sticky {
+        padding: 15px 50px;
+    }
+}
+
 
 
 
