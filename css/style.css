@@ -539,6 +539,10 @@ header.sticky {
     transition: var(--transition);
 }
 
+.project-item:hover .project-image img {
+    transform: scale(1.1);
+}
+
 
 
 
