@@ -690,6 +690,32 @@ footer {
     }
 }
 
+@media (max-width: 991px) {
+    .home-content, .about-content, .education-content, .contact-content {
+        flex-direction: column;
+    }
+
+    .home-content{
+        flex-direction: column-reverse;
+    }
+
+    .text-content, .about-image, .education-timeline, .skills-section, .contact-info, .contact-form {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .image-content {
+        /*margin-top: 50px;*/
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+
+    .about-image {
+        display: flex;
+        justify-content: center;
+    }
+}
+
 
 
 
