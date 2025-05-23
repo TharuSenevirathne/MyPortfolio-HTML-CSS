@@ -435,6 +435,8 @@ header.sticky {
     margin-bottom: 10px;
 }
 
+/* Skills */
+
 .skill-bars {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
