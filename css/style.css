@@ -680,6 +680,9 @@ footer {
 }
 
 
+
+/* Responsive Design */
+
 @media (max-width: 1200px) {
     header {
         padding: 20px 50px;
