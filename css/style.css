@@ -543,6 +543,11 @@ header.sticky {
     transform: scale(1.1);
 }
 
+.project-info {
+    padding: 20px;
+    background: white;
+}
+
 
 
 
