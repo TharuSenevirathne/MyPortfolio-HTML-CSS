@@ -578,6 +578,11 @@ header.sticky {
     transition: var(--transition);
 }
 
+.project-link:hover, .project-github:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
 
 
 
