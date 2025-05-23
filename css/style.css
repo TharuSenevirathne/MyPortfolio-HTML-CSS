@@ -441,6 +441,12 @@ header.sticky {
     gap: 30px;
 }
 
+.skill-item {
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+
 
 
 
