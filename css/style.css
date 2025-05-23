@@ -490,6 +490,17 @@ header.sticky {
     margin-bottom: 40px;
 }
 
+.filter-btn {
+    padding: 8px 20px;
+    margin: 0 5px;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
 
 
 
