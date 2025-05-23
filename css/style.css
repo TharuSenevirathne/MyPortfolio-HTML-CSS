@@ -555,6 +555,12 @@ header.sticky {
     color: var(--dark-color);
 }
 
+.project-info p {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 10px;
+}
+
 
 
 
