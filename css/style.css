@@ -532,6 +532,13 @@ header.sticky {
     overflow: hidden;
 }
 
+.project-image img {
+    width: 12%;
+    height: 40px;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
 
 
 
