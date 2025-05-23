@@ -484,7 +484,11 @@ header.sticky {
     background: #fff;
 }
 
-
+.project-filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
 
 
 
