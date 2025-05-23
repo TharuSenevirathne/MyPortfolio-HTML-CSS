@@ -669,6 +669,9 @@ header.sticky {
     resize: none;
 }
 
+
+/* Footer */
+
 footer {
     background: var(--dark-color);
     color: white;
