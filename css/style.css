@@ -548,6 +548,13 @@ header.sticky {
     background: white;
 }
 
+.project-info h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--dark-color);
+}
+
 
 
 
