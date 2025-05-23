@@ -661,6 +661,11 @@ header.sticky {
     outline: none;
 }
 
+.form-group textarea {
+    height: 150px;
+    resize: none;
+}
+
 
 
 
