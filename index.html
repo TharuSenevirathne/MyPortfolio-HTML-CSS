@@ -7,7 +7,6 @@
     <meta name="author" content="Tharu Senevirathne">
     <meta name="viewport" content="width=device-width, initial-scale=1.0l">
 
-<!--    <link rel="stylesheet" href="/lib/normalize%20css.css">-->
     <link rel="stylesheet" href="css/style.css">
 
     <!--box icon-->
@@ -515,11 +514,10 @@
         <p>&copy; Copyright 2025. Made by Tharu Senevirathne | All right reserved.</p>
     </footer>
 
+
 <script>
 
-    // Wait for DOM to load
     document.addEventListener('DOMContentLoaded', function() {
-        // Initialize the typing animation
         const typingTextElement = document.querySelector('.typing-text');
         const textArray = ['Web Developer', 'UI/UX Engineer'];
         let textIndex = 0;
@@ -554,7 +552,6 @@
 
         typeText();
 
-        // Mobile Menu Toggle
         const toggleBtn = document.querySelector('.toggle-btn');
         const navLinks = document.querySelector('.nav-links');
 
@@ -562,7 +559,6 @@
             navLinks.classList.toggle('active');
         });
 
-        // Close mobile menu when clicking a link
         const navItems = document.querySelectorAll('.nav-links ul li a');
         navItems.forEach(item => {
             item.addEventListener('click', function() {
@@ -570,13 +566,11 @@
             });
         });
 
-        // Sticky Header
         window.addEventListener('scroll', function() {
             const header = document.querySelector('header');
             header.classList.toggle('sticky', window.scrollY > 100);
         });
 
-        // Active Menu Item on Scroll
         const sections = document.querySelectorAll('section');
         const navItem = document.querySelectorAll('.nav-links ul li a');
 
@@ -598,7 +592,6 @@
             });
         });
 
-        // Check if element is in viewport
         function isInViewport(element) {
             const rect = element.getBoundingClientRect();
             return (
@@ -609,7 +602,6 @@
             );
         }
 
-        // Trigger animations when elements are in viewport
         window.addEventListener('scroll', function() {
             const educationSection = document.getElementById('education');
             if (isInViewport(educationSection)) {
@@ -617,15 +609,12 @@
             }
         });
 
-        // Project Filtering
         const filterBtns = document.querySelectorAll('.filter-btn');
         const projectItems = document.querySelectorAll('.project-item');
 
         filterBtns.forEach(btn => {
             btn.addEventListener('click', function() {
-                // Remove active class from all buttons
                 filterBtns.forEach(btn => btn.classList.remove('active'));
-                // Add active class to clicked button
                 this.classList.add('active');
 
                 const filterValue = this.getAttribute('data-filter');
@@ -648,7 +637,6 @@
             });
         });
 
-        // Add fade-in animation to elements
         const fadeElements = document.querySelectorAll('.section-title, .about-content, .education-content, .projects-container, .contact-content');
 
         function animateOnScroll() {
@@ -663,7 +651,7 @@
         }
 
         window.addEventListener('scroll', animateOnScroll);
-        animateOnScroll(); // Run once when page loads
+        animateOnScroll();
 
 
     });
